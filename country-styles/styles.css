@@ -1,0 +1,88 @@
+
+/*Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+main{
+    height: 80;
+}
+
+
+.container{
+    height: 50;
+    position: relative;
+}
+
+header{
+    text-decoration:none;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    background-color:rgb(245, 55, 55);
+    padding: 20;
+    margin-top: 20;
+}
+
+.hero, .picture{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.data {
+    top: 50px;
+    left: 30px;
+    
+}
+.data ul {
+    list-style-type: none; 
+    padding-left: 0;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.data li {
+    margin: 10px 0;
+}
+
+h2, h3 {
+    background-color:green;
+    color: white;
+    padding: 10px 20px;
+    margin-left: -30px;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.data, .weather {
+    position: absolute;
+    padding: 20px;
+    color: white;
+    background-color: rgba(49, 58, 46, 0.7);
+    border-radius: 8px;
+}
+
+.weather{
+    bottom: 50px;
+    right: 30px;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#FFFFFF;
+    background-color:rgb(245, 55, 55);
+    text-align:center;
+}
+    
